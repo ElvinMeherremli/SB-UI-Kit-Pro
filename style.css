@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Metrophobic", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 header nav {
@@ -14,6 +14,7 @@ header nav {
     display: flex;
     padding: 40px 270px;
     justify-content: space-between;
+    align-items: center;
 }
 
 header nav .logo a {
@@ -53,4 +54,138 @@ header nav .links ul li {
 header nav .links ul li a {
     text-decoration: none;
     color: rgb(72, 72, 72)
+}
+
+#register_section {
+    background: url(/img/inspiration-geometry.png), radial-gradient(circle, rgba(97,0,184,1) 0%, rgba(105,0,199,1) 100%);
+    width: 100%;
+    height: 80vh;
+    padding: 125px 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#register_section .info {
+    width: 700px;
+    height: 422px;
+    margin-top: 90px;
+}
+
+#register_section .info .sticker {
+    width: 97px;
+    height: 24px;
+    border-radius: 36px 36px 36px 36px;
+-webkit-border-radius: 36px 36px 36px 36px;
+-moz-border-radius: 36px 36px 36px 36px;
+    background-color: #E4DDF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: purple
+}
+
+#register_section .info h1 {
+    width: 660px;
+    color: white;
+    font-size: 40px;
+    /* font-family: "Blinker", sans-serif; */
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+#register_section .info p {
+    width: 660px;
+    color: #c3aefb;
+    font-size: 19px;
+}
+
+#register_section .register {
+    width: 700px;
+    height: 422px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#register_section .register .title {
+    padding: 24px 21px 22px;
+    border-bottom: gray 1px solid;
+
+}
+
+#register_section .register .title p {
+    font-size: 16px;
+    color: blue;
+    font-weight: 600;
+
+}
+
+#register_section .register .inputs {
+    padding: 22px;
+}
+
+#register_section .register .inputs .unit {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 25px;
+}
+
+#register_section .register .inputs .unit input {
+    width: 295px;
+    height: 44px;
+    outline: none;
+    border-radius: 10px;
+    padding: 14px 42px 14px 18px;
+    border: 1px solid rgb(126, 126, 126);
+    margin-top: 2px;
+}
+
+#register_section .name_input {
+    width: 615px;
+    height: 44px;
+    outline: none;
+    border-radius: 10px;
+    padding: 14px 42px 14px 18px;
+    border: 1px solid rgb(126, 126, 126);
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+#register_section label {
+    color: #69707a ;
+}
+
+#register_section button {
+    background-color: #0061F2;
+    width: 615px;
+    height: 44px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s;
+}
+
+#register_section button:hover {
+    background-color: #0043a7;
+    transition: 0.3s;
+}
+
+#triangle {
+    margin-top: -80px;
+    width: 100%;
+    height: 80px;
+    background: hsla(330, 36%, 53%, 1);
+
+    background: linear-gradient(92deg, rgb(255, 255, 255) 50%, rgba(69, 16, 81, 0) 50%);
+    
+    background: -moz-linear-gradient(92deg, rgb(255, 255, 255) 50%, rgba(69, 16, 81, 0) 50%);
+    
+    background: -webkit-linear-gradient(92deg, rgb(255, 255, 255) 50%, rgba(69, 16, 81, 0) 50%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B15B86", endColorstr="#440F50", GradientType=1 );
 }
